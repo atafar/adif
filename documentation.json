@@ -1,0 +1,661 @@
+{
+    "pipes": [],
+    "interfaces": [],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [
+        {
+            "name": "AdifLibComponent",
+            "id": "component-AdifLibComponent-4b16106e007ff5b63ff80d0f9be357d0",
+            "file": "projects/adif-lib/src/lib/adif-lib.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "lib-adif-lib",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<p>\n  adif-lib works!\n</p>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 17,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'lib-adif-lib',\n  template: `\n    <p>\n      adif-lib works!\n    </p>\n  `,\n  styles: [\n  ]\n})\nexport class AdifLibComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 13
+            },
+            "implements": [
+                "OnInit"
+            ]
+        },
+        {
+            "name": "AppComponent",
+            "id": "component-AppComponent-f73d6196d792cbd9a0d12b6e632a85db",
+            "file": "src/app/app.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-root",
+            "styleUrls": [
+                "./app.component.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./app.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  // title = 'adif';\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "",
+                    "styleUrl": "./app.component.scss"
+                }
+            ],
+            "stylesData": "",
+            "templateData": ""
+        },
+        {
+            "name": "PruebaComponent",
+            "id": "component-PruebaComponent-81195096c8684e79e0281a971dce7404",
+            "file": "src/app/components/prueba/prueba.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-prueba",
+            "styleUrls": [
+                "../../common/style.scss"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./prueba.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 12,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-prueba',\n  templateUrl: './prueba.component.html',\n  styleUrls: ['../../common/style.scss']\n})\nexport class PruebaComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": "@import \"./variables\";\r\n\r\n/* https://materialtheme.arcsine.dev */\r\n\r\n/**\r\n* Generated theme by Material Theme Generator\r\n* https://materialtheme.arcsine.dev\r\n*/\r\n\r\n\r\n@import \"~@angular/material/theming\";\r\n// Include the common styles for Angular Material. We include this here so that you only\r\n// have to load a single css file for Angular Material in your app.\r\n\r\n\r\n\r\n\r\n// Fonts\r\n@import \"https://fonts.googleapis.com/css?family=Material+Icons\";\r\n@import url(\"https://fonts.googleapis.com/css?family=Roboto:300,400,500\");\r\n\r\n$fontConfig: (\r\n  display-4:\r\n    mat-typography-level(112px, 112px, 300, Roboto, -0.0134em),\r\n  display-3:\r\n    mat-typography-level(56px, 56px, 400, Roboto, -0.0089em),\r\n  display-2: mat-typography-level(45px, 48px, 400, Roboto, 0em),\r\n  display-1: mat-typography-level(34px, 40px, 400, Roboto, 0.0074em),\r\n  headline: mat-typography-level(24px, 32px, 400, Roboto, 0em),\r\n  title: mat-typography-level(20px, 32px, 400, Roboto, 0.0075em),\r\n  subheading-2:\r\n    mat-typography-level(14px, 28px, 400, Roboto, 0.0094em),\r\n  subheading-1:\r\n    mat-typography-level(15px, 24px, 500, Roboto, 0.0067em),\r\n  body-2: mat-typography-level(14px, 24px, 500, Roboto, 0.0179em),\r\n  body-1: mat-typography-level(14px, 20px, 400, Roboto, 0.0179em),\r\n  button: mat-typography-level(14px, 14px, 400, Roboto, 0.0893em),\r\n  caption: mat-typography-level(12px, 20px, 400, Roboto, 0.0333em),\r\n  input: mat-typography-level(inherit, 1.125, 400, Roboto, 1.5px),\r\n);\r\n\r\n// Foreground Elements\r\n\r\n// Light Theme Text\r\n$dark-text: #000000;\r\n$dark-primary-text: rgba($dark-text, 0.87);\r\n$dark-accent-text: rgba($dark-primary-text, 0.54);\r\n$dark-disabled-text: rgba($dark-primary-text, 0.38);\r\n$dark-dividers: rgba($dark-primary-text, 0.12);\r\n$dark-focused: rgba($dark-primary-text, 0.12);\r\n\r\n$mat-light-theme-foreground: (\r\n  base: black,\r\n  divider: $dark-dividers,\r\n  dividers: $dark-dividers,\r\n  disabled: $dark-disabled-text,\r\n  disabled-button: rgba($dark-text, 0.26),\r\n  disabled-text: $dark-disabled-text,\r\n  elevation: black,\r\n  secondary-text: $dark-accent-text,\r\n  hint-text: $dark-disabled-text,\r\n  accent-text: $dark-accent-text,\r\n  icon: $dark-accent-text,\r\n  icons: $dark-accent-text,\r\n  text: $dark-primary-text,\r\n  slider-min: $dark-primary-text,\r\n  slider-off: rgba($dark-text, 0.26),\r\n  slider-off-active: $dark-disabled-text,\r\n);\r\n\r\n// Dark Theme text\r\n$light-text: #ffffff;\r\n$light-primary-text: $light-text;\r\n$light-accent-text: rgba($light-primary-text, 0.7);\r\n$light-disabled-text: rgba($light-primary-text, 0.5);\r\n$light-dividers: rgba($light-primary-text, 0.12);\r\n$light-focused: rgba($light-primary-text, 0.12);\r\n\r\n$mat-dark-theme-foreground: (\r\n  base: $light-text,\r\n  divider: $light-dividers,\r\n  dividers: $light-dividers,\r\n  disabled: $light-disabled-text,\r\n  disabled-button: rgba($light-text, 0.3),\r\n  disabled-text: $light-disabled-text,\r\n  elevation: black,\r\n  hint-text: $light-disabled-text,\r\n  secondary-text: $light-accent-text,\r\n  accent-text: $light-accent-text,\r\n  icon: $light-text,\r\n  icons: $light-text,\r\n  text: $light-text,\r\n  slider-min: $light-text,\r\n  slider-off: rgba($light-text, 0.3),\r\n  slider-off-active: rgba($light-text, 0.3),\r\n);\r\n\r\n// Background config\r\n// Light bg\r\n$light-background: #fafafa;\r\n$light-bg-darker-5: darken($light-background, 5%);\r\n$light-bg-darker-10: darken($light-background, 10%);\r\n$light-bg-darker-20: darken($light-background, 20%);\r\n$light-bg-darker-30: darken($light-background, 30%);\r\n$light-bg-lighter-5: lighten($light-background, 5%);\r\n$dark-bg-tooltip: lighten(#2c2c2c, 20%);\r\n$dark-bg-alpha-4: rgba(#2c2c2c, 0.04);\r\n$dark-bg-alpha-12: rgba(#2c2c2c, 0.12);\r\n\r\n$mat-light-theme-background: (\r\n  background: $light-background,\r\n  status-bar: $light-bg-darker-20,\r\n  app-bar: $light-bg-darker-5,\r\n  hover: $dark-bg-alpha-4,\r\n  card: $light-bg-lighter-5,\r\n  dialog: $light-bg-lighter-5,\r\n  tooltip: $dark-bg-tooltip,\r\n  disabled-button: $dark-bg-alpha-12,\r\n  raised-button: $light-bg-lighter-5,\r\n  focused-button: $dark-focused,\r\n  selected-button: $light-bg-darker-20,\r\n  selected-disabled-button: $light-bg-darker-30,\r\n  disabled-button-toggle: $light-bg-darker-10,\r\n  unselected-chip: $light-bg-darker-10,\r\n  disabled-list-option: $light-bg-darker-10,\r\n);\r\n\r\n// Dark bg\r\n$dark-background: #2c2c2c;\r\n$dark-bg-lighter-5: lighten($dark-background, 5%);\r\n$dark-bg-lighter-10: lighten($dark-background, 10%);\r\n$dark-bg-lighter-20: lighten($dark-background, 20%);\r\n$dark-bg-lighter-30: lighten($dark-background, 30%);\r\n$light-bg-alpha-4: rgba(#fafafa, 0.04);\r\n$light-bg-alpha-12: rgba(#fafafa, 0.12);\r\n\r\n// Background palette for dark themes.\r\n$mat-dark-theme-background: (\r\n  background: $dark-background,\r\n  status-bar: $dark-bg-lighter-20,\r\n  app-bar: $dark-bg-lighter-5,\r\n  hover: $light-bg-alpha-4,\r\n  card: $dark-bg-lighter-5,\r\n  dialog: $dark-bg-lighter-5,\r\n  tooltip: $dark-bg-lighter-20,\r\n  disabled-button: $light-bg-alpha-12,\r\n  raised-button: $dark-bg-lighter-5,\r\n  focused-button: $light-focused,\r\n  selected-button: $dark-bg-lighter-20,\r\n  selected-disabled-button: $dark-bg-lighter-30,\r\n  disabled-button-toggle: $dark-bg-lighter-10,\r\n  unselected-chip: $dark-bg-lighter-20,\r\n  disabled-list-option: $dark-bg-lighter-10,\r\n);\r\n\r\n\r\n// Compute font config\r\n@include mat-core($fontConfig);\r\n\r\n// Theme Config\r\n\r\nbody {\r\n  --primary-color: $primary-color;\r\n  --primary-lighter-color: #b3d0c3;\r\n  --primary-darker-color: #004724;\r\n  --text-primary-color: #{$light-primary-text};\r\n  --text-primary-lighter-color: #{$dark-primary-text};\r\n  --text-primary-darker-color: #{$light-primary-text};\r\n}\r\n\r\n$mat-primary: (\r\n  main: $primary-color,\r\n  lighter: #b3d0c3,\r\n  darker: #004724,\r\n  200: $primary-color,\r\n  // For slide toggle,\r\n  contrast:\r\n    (\r\n      main: $light-primary-text,\r\n      lighter: $dark-primary-text,\r\n      darker: $light-primary-text,\r\n    ),\r\n);\r\n$theme-primary: mat-palette($mat-primary, main, lighter, darker);\r\n\r\nbody {\r\n  --accent-color: #797979;\r\n  --accent-lighter-color: #d7d7d7;\r\n  --accent-darker-color: #5c5c5c;\r\n  --text-accent-color: #{$light-primary-text};\r\n  --text-accent-lighter-color: #{$dark-primary-text};\r\n  --text-accent-darker-color: #{$light-primary-text};\r\n}\r\n\r\n$mat-accent: (\r\n  main: #797979,\r\n  lighter: #d7d7d7,\r\n  darker: #5c5c5c,\r\n  200: #797979,\r\n  // For slide toggle,\r\n  contrast:\r\n    (\r\n      main: $light-primary-text,\r\n      lighter: $dark-primary-text,\r\n      darker: $light-primary-text,\r\n    ),\r\n);\r\n$theme-accent: mat-palette($mat-accent, main, lighter, darker);\r\n\r\nbody {\r\n  --warn-color: #ff0000;\r\n  --warn-lighter-color: #ffb3b3;\r\n  --warn-darker-color: #ff0000;\r\n  --text-warn-color: #{$light-primary-text};\r\n  --text-warn-lighter-color: #{$dark-primary-text};\r\n  --text-warn-darker-color: #{$light-primary-text};\r\n}\r\n\r\n$mat-warn: (\r\n  main: #ff0000,\r\n  lighter: #ffb3b3,\r\n  darker: #ff0000,\r\n  200: #ff0000,\r\n  // For slide toggle,\r\n  contrast:\r\n    (\r\n      main: $light-primary-text,\r\n      lighter: $dark-primary-text,\r\n      darker: $light-primary-text,\r\n    ),\r\n);\r\n$theme-warn: mat-palette($mat-warn, main, lighter, darker);\r\n\r\n$theme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);\r\n$altTheme: mat-dark-theme($theme-primary, $theme-accent, $theme-warn);\r\n\r\n// Theme Init\r\n@include angular-material-theme($theme);\r\n\r\n.theme-alternate {\r\n  @include angular-material-theme($altTheme);\r\n}\r\n\r\n// Specific component overrides, pieces that are not in line with the general theming\r\n\r\n// Handle buttons appropriately, with respect to line-height\r\n.mat-raised-button,\r\n.mat-stroked-button,\r\n.mat-flat-button {\r\n  padding: 0 1.15em;\r\n  margin: 0 0.65em !important;\r\n  min-width: 3em;\r\n  line-height: 36.4px;\r\n}\r\n\r\n.mat-standard-chip {\r\n  padding: 0.5em 0.85em;\r\n  min-height: 2.5em;\r\n}\r\n\r\n.material-icons {\r\n  font-size: 24px;\r\n  font-family: \"Material Icons\", \"Material Icons\";\r\n  .mat-badge-content {\r\n    font-family: Roboto;\r\n  }\r\n}\r\n\r\n/* CUSTOM SCSS */\r\nbody {\r\n  background-color: #ececec;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n.mat-darky {\r\n  color: rgb(255, 255, 255) !important;\r\n  background-color: #333333 !important;\r\n}\r\n\r\n.mat-darky-icon {\r\n  color: #333333 !important;\r\n  background-color: #33333300 !important;\r\n}\r\n\r\n.mat-card-content {\r\n  margin-bottom: 0px !important;\r\n}\r\n\r\n\r\n\r\n\r\n// campos hidden/show mediaquery\r\n.d-none {\r\n\tdisplay: none;\r\n}\r\n.d-block {\r\n  display: block !important;\r\n}\r\n.d-flex {\r\n  display: flex !important;\r\n}\r\n.d-xs {\r\n\tdisplay: block !important;\r\n}\r\n@media only screen and (min-width: $sm-viewport) {\r\n\t.d-sm {\r\n\t\tdisplay: block !important;\r\n\t}\r\n  .d-sm-block {\r\n    display: block !important;\r\n  }\r\n  .d-sm-flex {\r\n    display: flex !important;\r\n  }\r\n}\r\n@media only screen and (min-width: $md-viewport) {\r\n\t.d-md {\r\n\t\tdisplay: block !important;\r\n\t}\r\n  .d-md-block {\r\n    display: block !important;\r\n  }\r\n  .d-md-flex {\r\n    display: flex !important;\r\n  }  \r\n}\r\n@media only screen and (min-width: $lg-viewport) {\r\n\t.d-lg {\r\n\t\tdisplay: block !important;\r\n\t}\r\n  .d-lg-block {\r\n    display: block !important;\r\n  }\r\n  .d-lg-flex {\r\n    display: flex !important;\r\n  }\r\n}\r\n\r\n/* custom theme */\r\n.separator {\r\n  border-top: solid 1px $lighter-color;\r\n  margin-bottom: 1em;\r\n  margin-top: 0.5em;\r\n  width: calc(100% - 1em);\r\n  margin-left: 0.5em;\r\n  margin-right: 0.5em;\r\n}\r\n\r\n.mat-form-field-appearance-legacy {\r\n  .mat-form-field-flex {\r\n    padding: 0.25em 0.75em 0 0.75em;\r\n  }\r\n  &.mat-form-field-disabled .mat-form-field-underline {\r\n    display: none;\r\n  }\r\n} \r\n\r\n.mat-form-field-appearance-fill, \r\n.mat-form-field-appearance-legacy {  \r\n  .mat-form-field-flex {\r\n    background-color: rgba(0,0,0,0.02);\r\n  }\r\n  &.mat-form-field-disabled {\r\n    .mat-form-field-flex {\r\n     background-color: rgba($primary-color,0.04);\r\n    }\r\n    .mat-form-field-label {\r\n      color: $primary-color;\r\n    }\r\n  }\r\n  .mat-input-element:disabled {\r\n    color: $primary-color;\r\n  }\r\n}\r\n\r\n.mat-option {\r\n  height: 42px;\r\n}\r\n\r\n.mat-card {\r\n  margin-bottom: 16px;\r\n}\r\n.mat-card-header {\r\n  .mat-card-title {\r\n    display: flex;\r\n    justify-content: space-between;\r\n  }\r\n  .mat-card-header-text {\r\n    width: 100%;\r\n    margin: 0 ;\r\n    border-bottom: solid 1px $lighter-color;\r\n    h2 .mat-icon {\r\n      color: $primary-color;\r\n      padding: 5px;\r\n    }\r\n  }\r\n}\r\n\r\n.full-width {\r\n  width: 100%;\r\n}\r\n\r\n.mat-form-field.full-width {\r\n  display: block ;\r\n}\r\n.mat-card-title {\r\n  h2 {\r\n    font-family: Roboto,Verdana, Geneva, sans-serif;\r\n    font-weight: 400;\r\n    color: $primary-color;\r\n    margin: 5px 0;\r\n    display: flex;\r\n    align-items: center;\r\n  }\r\n}\r\n.mat-card-header .mat-card-subtitle.breadcrumb {\r\n  display: flex;\r\n  align-items: center;\r\n  padding-left: 36px;\r\n  margin-bottom: 10px;\r\n  margin-top: -16px !important;\r\n  .active {\r\n    color: $black;\r\n  }\r\n  .link {\r\n    color: rgba(0,0,0,.54);\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.no-data {\r\n  padding: 20px;\r\n  color: rgba($black, 0.5);\r\n}\r\n\r\n.mantenimiento-filter {\r\n  display: block;\r\n  margin-top: 16px;\r\n  border: solid 1px;\r\n  border-radius: 6px;\r\n  padding: 16px 10px 0 10px;\r\n  border-color: $filter-border;\r\n  background-color: $filter-background;\r\n  .mat-form-field-appearance-fill,\r\n  .mat-form-field-appearance-legacy {\r\n      .mat-form-field-flex {\r\n      background-color: $white !important; \r\n    }\r\n  }\r\n}\r\n.mantenimiento-content {\r\n  padding-top: 16px;\r\n  padding-bottom: 16px;\r\n}\r\n\r\n.mat-expansion-panel-header-title {\r\n  color: $subtitle-color;\r\n  line-height: 1.5rem;\r\n  font-family: Roboto,Verdana, Geneva, sans-serif;\r\n  font-weight: 400;\r\n  .mat-icon {\r\n    padding-right: 10px;\r\n  }\r\n}\r\n\r\n.mat-icon-green {\r\n  color: $subtitle-color;\r\n}\r\n\r\n.mat-border {\r\n  border: solid 1px $lighter-color;\r\n  border-top: none;\r\n}\r\n.mat-border:first-child,\r\n.mat-border.mat-expanded + .mat-border {\r\n  border-top: solid 1px $lighter-color;\r\n}\r\n\r\n.mat-border.mat-expanded {\r\n  border-top: solid 1px $lighter-color;\r\n}\r\n\r\n/* table */\r\n.column-grey {\r\n  background-color: rgba($primary-color,0.04);\r\n}\r\n\r\n/* buttons */\r\n.mat-flat-button.mat-primary.mat-button-off {\r\n  &.mat-button-off {\r\n    background-color: rgba($primary-color, 0.04);\r\n    color: $primary-color;\r\n  }\r\n  &.mat-button-disabled {\r\n    pointer-events: none;\r\n    cursor: not-allowed;\r\n  }\r\n}\r\n\r\n.mat-icon-button.button-input-clear{\r\n  height: 16px !important;\r\n  width: 16px !important;\r\n  .mat-icon {\r\n    font-size: 16px;\r\n  }\r\n}\r\n\r\n\r\n/* text align */\r\n.mat-input-element {\r\n  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif !important;\r\n  font-size: 14px !important;\r\n  &.text-right {\r\n    text-align: right;\r\n  }\r\n}\r\n\r\nlabel.label-inline-info {\r\n  padding: 0 .75em;\r\n  display: flex;\r\n  color: $primary-color;\r\n  align-items: center;\r\n  height: 54px;\r\n  color: rgba($primary-color,0.8);\r\n  .mat-icon {\r\n    font-size: 16px;\r\n    height: 16px;\r\n    width: 16px;\r\n    padding-right: 4px;\r\n  }\r\n}\r\n\r\n/* toggle */\r\n.toggle-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 12px 10.5px;\r\n  .toggle-content {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n  }\r\n  .toggle-label {\r\n    display: block;\r\n    font-size: 14px;\r\n    padding: 6px 12px 6px 0;\r\n    line-height: 1em;\r\n  }\r\n  .toggle-off {\r\n    padding: 2px 12px 0 0;\r\n    order: 1;\r\n  }\r\n  .mat-disabled + .toggle-off {\r\n    opacity: .38;\r\n  }\r\n  .mat-slide-toggle{\r\n    order: 2;\r\n  }\r\n\r\n  &.toggle-label-ontop {\r\n    padding-top: 2px;\r\n    .toggle-content{\r\n      flex-direction: column;\r\n    }\r\n    .toggle-label {\r\n      transform: scale(0.75);\r\n      align-self: flex-start;\r\n      color: rgba(0, 0, 0, 0.6);\r\n      letter-spacing: 1.5px;\r\n      padding-bottom: 0;\r\n    }\r\n  }\r\n}\r\n\r\n.toggle-container-align-start{\r\n  align-items: flex-start;\r\n}\r\n\r\n/* paneles */\r\n.soft-panel {\r\n  margin: 15px 0;\r\n  padding: 15px;\r\n  background-color: rgba($primary-color,0.04);\r\n}\r\n/* zebra colors */\r\n.table-with-zebra {\r\n  th.mat-header-cell,\r\n  td.mat-cell{\r\n    padding-left: 10px;\r\n  }\r\n}\r\n\r\n.zebra-color-1 {\r\n  background-color: $zebra-color-1;\r\n}\r\n.zebra-color-2 {\r\n  background-color: $zebra-color-2;\r\n}\r\n\r\n.table-auto-zebra {\r\n  tr {\r\n    -moz-transition: all .1s ease-in;\r\n    -o-transition: all .1s ease-in;\r\n    -webkit-transition: all .1s ease-in;\r\n    transition: all .1s ease-in;\r\n    cursor: default;\r\n  }\r\n  tr:nth-child(odd) {\r\n    background-color: $zebra-color-2;\r\n  }\r\n  tr:nth-child(even) {\r\n    background-color: $zebra-color-1;\r\n  }\r\n  tr th {\r\n    background-color: $white;\r\n    color: $primary-color;\r\n  }\r\n  td.mat-cell:first-of-type {\r\n    padding-left: 0;\r\n  }\r\n  td.mat-cell:last-of-type {\r\n    padding-right: 0;\r\n  }\r\n  tr.mostrado{\r\n    background-color:  $white;\r\n    td {\r\n      color: rgba($black, 0.8);\r\n    }\r\n  }\r\n  tr.actual{\r\n    background-color:  rgba($primary-color,0.8);\r\n    td {\r\n      color: $white\r\n    }\r\n  }\r\n  tr:hover {\r\n    background-color:  rgba($primary-color,1);\r\n    td {\r\n      color: $white\r\n    }\r\n  }\r\n\r\n}\r\n\r\n/* tablas */\r\n.cell-column {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.grid-vertical-zebra {\r\n  width: calc(100% - 2px);\r\n  background-color: $white;\r\n  border-collapse: collapse;\r\n  border-width: 0;\r\n  border-style: solid;\r\n  color: $black;  \r\n  \r\n  tr.mat-row, tr.mat-footer-row {\r\n    height: 42px;\r\n  }\r\n  tr:nth-child(even) {\r\n    background-color: $grid-zebra-1;\r\n  }\r\n  th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {\r\n    padding-left: 10px;\r\n  }\r\n  th.mat-header-cell{\r\n    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;\r\n    font-size: 13px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: $primary-color;\r\n    white-space: nowrap;\r\n    min-width: 170px;\r\n    .cell-column span {\r\n      justify-content: center;\r\n      text-align: center;\r\n      width: 100%;\r\n      white-space: initial;\r\n      line-height: 1em;\r\n    }\r\n  }\r\n  td.mat-cell  {\r\n    border-width: 1px;\r\n    border-color: $lighter-color;\r\n    border-style: solid;\r\n    padding-left: 10px;\r\n    padding-right: 10px;\r\n    min-width: 170px;\r\n    font-size: 13px;\r\n    font-family: 'Roboto', Arial, Helvetica, sans-serif;\r\n    text-align: center;\r\n  }\r\n}\r\n\r\n// totales tablas grid\r\n.grid-total-1 {\r\n  background-color: $grid-total-1;\r\n  padding: 5px 10px;\r\n  font-size: 14px;\r\n  font-weight: 700;\r\n  text-transform: uppercase;\r\n  line-height: 2rem;\r\n  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;\r\n}\r\n\r\n\r\n.subtitle {\r\n  margin-top: 16px;\r\n}\r\n\r\n/* overlay */\r\n.overlay {\r\n  position: absolute;\r\n  display: none;\r\n  width: 100%;\r\n  height: 100%;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0,0,0,0.5);\r\n  z-index: 2;\r\n  justify-content: center;\r\n  align-items: center;\r\n  &.working {\r\n    display: flex;\r\n  }\r\n}\r\n\r\n/* barra de progreso */\r\n\r\n.mat-progress-bar.select-progress-bar {\r\n  position: absolute;\r\n  bottom: -2px;\r\n  width: calc(100% + 1.5em);\r\n  left: -0.75em;\r\n  height: 2px;\r\n}\r\n\r\n// file dropdown\r\n.container-filedrop {\r\n  font-size: 1rem;\r\n  padding: 1rem;\r\n  text-align: center;\r\n  border: dashed 1px rgba($primary-color,0.4);\r\n  position: relative;\r\n  margin: 0 auto;\r\n  background-color: rgba($primary-color,0.04);\r\n  color: rgba($primary-color,0.4);\r\n  cursor: pointer;\r\n\r\n  .mat-icon {\r\n    font-size: 48px;\r\n    height: 48px;\r\n    width: 48px;\r\n    color: rgba($primary-color,0.4);\r\n  }\r\n\r\n  input {\r\n    opacity: 0;\r\n    position: absolute;\r\n    z-index: 2;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 0;\r\n    left: 0;\r\n  }\r\n\r\n  label {\r\n    color: $primary-color;\r\n    border-bottom: solid 1px $primary-color;\r\n    cursor: pointer;\r\n  }\r\n\r\n  h3 {\r\n    font-size: 20px;\r\n    font-weight: 600;\r\n    color: #38424c;\r\n  }\r\n}\r\n\r\n.fileover {\r\n  animation: pulse 1s;\r\n  animation-iteration-count: infinite;\r\n  \r\n}\r\n\r\n.files-list {\r\n  margin-top: -1px;\r\n  margin-bottom: 1.5rem;\r\n\r\n  .single-file {\r\n    display: flex;\r\n    padding: 0.5rem;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border: dashed 1px rgba($primary-color,0.4);\r\n    margin-bottom: -1px;\r\n\r\n    img.delete {\r\n      margin-left: 0.5rem;\r\n      cursor: pointer;\r\n      align-self: flex-end;\r\n    }\r\n\r\n\r\n    display: flex;\r\n    flex-grow: 1;\r\n\r\n    .name {\r\n      font-size: 14px;\r\n      font-weight: 500;\r\n      color: #353f4a;\r\n      margin: 0;\r\n      display: flex;\r\n      align-items: center;\r\n    }\r\n\r\n    .size {\r\n      font-size: 12px;\r\n      font-weight: 500;\r\n      color: #a4a4a4;\r\n      margin: 0;\r\n      margin-left: 1rem;\r\n    }\r\n\r\n    .info {\r\n      width: 100%;\r\n      padding-left: 10px;\r\n      padding-right: 10px;\r\n    }\r\n  }\r\n}\r\n\r\n// container group\r\n.container-group {\r\n  border-radius: 5px;\r\n  border: solid 1px #d7d7d7;\r\n  background-color: #fff;\r\n  padding: 0 16px 16px;\r\n  margin-bottom: 16px;\r\n  &.with-padding-top {\r\n    padding-top: 16px;\r\n    padding-bottom: 0;\r\n  }\r\n}\r\n.container-group-accordion {\r\n  border-radius: 5px !important;\r\n  border: solid 1px #d7d7d7;\r\n  background-color: #fff;\r\n  padding: 0 !important;\r\n  margin-bottom: 16px !important;\r\n  box-shadow: none !important;\r\n}\r\n.container-group, .container-group-accordion{\r\n  &.container-notittle {\r\n    padding-top: 16px;\r\n  }\r\n  &.container-noborder-lbr {\r\n    border-left: 0;\r\n    border-right: 0;\r\n    border-radius: 0;\r\n    border-bottom: 0;\r\n    padding-left: 0;\r\n    padding-right: 0;\r\n    margin-top: 16px;\r\n    margin-bottom: 0;\r\n  }\r\n}\r\n.without-container-group-accordion {\r\n  border-radius: 0 !important;\r\n  border-top: solid 1px #d7d7d7;\r\n  border-bottom: solid 1px #d7d7d7;\r\n  background-color: #fff;\r\n  padding: 0 !important;\r\n  margin-bottom: -1px !important;\r\n  box-shadow: none !important;\r\n  &.container-notittle {\r\n    padding-top: 16px;\r\n  }\r\n  &.container-noborder-lbr {\r\n    border-left: 0;\r\n    border-right: 0;\r\n    border-radius: 0;\r\n    border-bottom: 0;\r\n    padding-left: 0;\r\n    padding-right: 0;\r\n    margin-top: 16px;\r\n    margin-bottom: 0;\r\n  }\r\n  .mat-expansion-panel-header.mat-expanded {\r\n    height: 48px;\r\n  }  \r\n  .mat-expansion-panel-body {\r\n    padding: 0;\r\n  }\r\n}\r\n\r\n.button-container-group{\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-end;\r\n  justify-content: space-between;\r\n  height: calc(100%);\r\n  padding-bottom: 16px;\r\n}\r\n\r\n.custom-tooltip-info{\r\n  font-size: 12px !important;\r\n  font-weight: 400;\r\n  color: #333 !important;\r\n  background-color: #F5F9F7;\r\n  border: solid 1px #d7d7d7;\r\n  box-shadow: 0px 3px 3px 0px rgba(104, 104, 104, 0.3);\r\n}\r\n\r\n// otros\r\n.text-remaning {\r\n  position: absolute;\r\n  bottom: 6px;\r\n  right: 10px;\r\n  font-size: 11px;\r\n}\r\n\r\n// alineaciones y justificaciones\r\n.flex-end {\r\n  align-items: flex-end;\r\n}\r\n.mat-expansion-panel-header-description.pull-right-accordion {\r\n  flex: 0 1 auto;\r\n  margin-right: 0;\r\n  align-self: center;\r\n}\r\n\r\n\r\n.blocktitle-header-container{\r\n  display: flex;\r\n  padding-left: 6px;\r\n}\r\n\r\n.blocktitle-header-button {\r\n  color: #333;\r\n}\r\n\r\n.blocktitle-header, .blocktitle-header-option {\r\n  color: #666;\r\n  border-bottom: solid 1px #d7d7d7;\r\n  font-size: 14px;\r\n  margin-bottom: 16px;\r\n  margin-top: 16px;\r\n  font-weight: 400;\r\n  display: flex;\r\n  flex: 1;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  width: 100%;\r\n}\r\n\r\n\r\n\r\n.mat-expansion-panel-header {\r\n  .blocktitle-header, .blocktitle-header-option{\r\n   border-bottom: none;\r\n }\r\n}\r\n\r\n\r\n.pull-right-accordion{\r\n  align-items: center;\r\n}\r\n\r\n.mat-expansion-panel-header.mat-expanded {\r\n  .blocktitle-header, .blocktitle-header-option {\r\n    border-bottom: solid 1px #d7d7d7;\r\n  }\r\n  .blocktitle-header, .blocktitle-header-option-without-border {\r\n    border-bottom: none;\r\n  }\r\n}\r\n\r\n\r\n\r\n.justify-start {\r\n  justify-content: flex-start;\r\n}\r\n\r\n.title-space-5{\r\n  margin-left: 5px;\r\n}\r\n\r\n\r\n.antecedentes-accidentes-table.mat-table {\r\n  .mat-header-cell, .mat-cell {\r\n    text-align: center;\r\n    padding-left: 5px;\r\n    padding-right: 5px;\r\n    min-width: 170px;\r\n  }  \r\n}\r\n\r\n.upper-case {\r\n  text-transform: uppercase;\r\n}\r\n\r\n// snackbar\r\n.primary-snackbar {\r\n  background-color: $white;\r\n  color: $primary-color;\r\n}\r\n\r\n/* animaciones iconos */\r\n.rotate {\r\n  animation: rotation 2s infinite linear;\r\n}\r\n@keyframes rotation {\r\n  from {\r\n    transform: rotate(0deg);\r\n  }\r\n  to {\r\n    transform: rotate(359deg);\r\n  }\r\n}\r\n/* Shake animation */\r\n\r\n@keyframes pulse {\r\n  from {\r\n    box-shadow: 0 0 0 0 rgba($primary-color, 0.4);\r\n  }\r\n  to {\r\n    box-shadow: 0 0 0 15px rgba($primary-color, 0);\r\n  }\r\n}\r\n\r\n\r\n.extraspace{\r\n  margin-top: 15px;\r\n}\r\n\r\n@media only all and (min-width: 768px) and (max-width: 992px) {\r\n  div.toggle-content.none-justify-content {\r\n    justify-content: inherit;\r\n  }\r\n  }\r\n\r\n  \r\n\r\n\r\n\r\n  div.menuTipoAccidenteItems {\r\n    max-width: none!important;\r\n  }\r\n\r\n  div.menuCausaUnoItems {\r\n    max-width: none!important;\r\n  }",
+                    "styleUrl": "../../common/style.scss"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 8
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<mat-expansion-panel hideToggle class=\"prueba\">\n  <mat-expansion-panel-header>\n    <mat-panel-title>\n      This is the expansion title\n    </mat-panel-title>\n    <mat-panel-description>\n      This is a summary of the content\n    </mat-panel-description>\n  </mat-expansion-panel-header>\n  <p>This is the primary content of the panel.</p>\n</mat-expansion-panel>\n"
+        }
+    ],
+    "modules": [
+        {
+            "name": "AdifLibModule",
+            "id": "module-AdifLibModule-80802fd88b0e86067287c422a9389d13",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "projects/adif-lib/src/lib/adif-lib.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\n// import { MaterialModule } from 'src/app/components/material.module';\nimport { AdifLibComponent } from './adif-lib.component';\n\n\n\n@NgModule({\n  declarations: [\n    AdifLibComponent\n  ],\n  imports: [\n    // MaterialModule\n  ],\n  exports: [\n    AdifLibComponent\n    // MaterialModule\n  ]\n})\nexport class AdifLibModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "AdifLibComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "AdifLibComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AppModule",
+            "id": "module-AppModule-170bce9758b39f16d86b1ebbe96d10cd",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { ComponentsModule } from './components/components.module';\nimport { MaterialModule } from './components/material.module';\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    ComponentsModule,\n    MaterialModule\n  ],\n  exports: [AppComponent, ComponentsModule, MaterialModule],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": [
+                        {
+                            "name": "AppRoutingModule"
+                        },
+                        {
+                            "name": "MaterialModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        },
+                        {
+                            "name": "MaterialModule"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": [
+                        {
+                            "name": "AppComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "AppRoutingModule",
+            "id": "module-AppRoutingModule-3c1d721cfd0753406a1cfde101c59380",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/app-routing.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "ComponentsModule",
+            "id": "module-ComponentsModule-7e18ae7eabe24df254c805da6c8f5c93",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/components/components.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { PruebaComponent } from './prueba/prueba.component';\n// import { MaterialModule } from './material.module';\nimport { MatExpansionModule } from '@angular/material/expansion';\n\n\n\n@NgModule({\n  declarations: [\n    PruebaComponent,\n    // MatExpansionModule\n  ],\n  imports: [\n    CommonModule,\n    MatExpansionModule\n  ],\n  exports:[\n    PruebaComponent,\n    MatExpansionModule\n  ]\n})\nexport class ComponentsModule { }\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": [
+                        {
+                            "name": "PruebaComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": [
+                        {
+                            "name": "PruebaComponent"
+                        }
+                    ]
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        },
+        {
+            "name": "MaterialModule",
+            "id": "module-MaterialModule-2b4532eb1b60903bc2bb8b217ebad862",
+            "description": "",
+            "deprecationMessage": "",
+            "deprecated": false,
+            "file": "src/app/components/material.module.ts",
+            "methods": [],
+            "sourceCode": "import { NgModule } from '@angular/core';\r\n\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatToolbarModule } from '@angular/material/toolbar';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatBadgeModule } from '@angular/material/badge';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { MatSelectModule } from '@angular/material/select';\r\nimport { MatRadioModule } from '@angular/material/radio';\r\n// import { ReactiveFormsModule } from '@angular/forms';\r\nimport { MatSidenavModule } from '@angular/material/sidenav';\r\nimport { MatListModule } from '@angular/material/list';\r\nimport { MatTableModule } from '@angular/material/table';\r\nimport { MatPaginatorModule } from '@angular/material/paginator';\r\nimport { MatSortModule } from '@angular/material/sort';\r\nimport { MatGridListModule } from '@angular/material/grid-list';\r\nimport { MatMenuModule } from '@angular/material/menu';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatStepperModule } from '@angular/material/stepper';\r\nimport { MatTabsModule } from '@angular/material/tabs';\r\nimport {\r\n  MatDialogModule,\r\n  MatDialogRef,\r\n  MAT_DIALOG_DATA,\r\n} from '@angular/material/dialog';\r\nimport { MatTooltipModule } from '@angular/material/tooltip';\r\nimport { MatDatepickerModule } from '@angular/material/datepicker';\r\nimport { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';\r\nimport { MatExpansionModule } from '@angular/material/expansion';\r\nimport { MatSlideToggleModule } from '@angular/material/slide-toggle';\r\nimport { MatProgressSpinnerModule } from '@angular/material/progress-spinner';\r\nimport { MatAutocompleteModule } from '@angular/material/autocomplete';\r\nimport { MatProgressBarModule } from '@angular/material/progress-bar';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\n\r\nconst modules = [\r\n  MatButtonModule,\r\n  MatToolbarModule,\r\n  MatIconModule,\r\n  MatBadgeModule,\r\n  MatCardModule,\r\n  MatInputModule,\r\n  MatSelectModule,\r\n  MatRadioModule,\r\n  // ReactiveFormsModule,\r\n  MatSidenavModule,\r\n  MatTableModule,\r\n  MatPaginatorModule,\r\n  MatSortModule,\r\n  MatGridListModule,\r\n  MatMenuModule,\r\n  MatFormFieldModule,\r\n  MatStepperModule,\r\n  MatTabsModule,\r\n  MatDialogModule,\r\n  MatTooltipModule,\r\n  MatPaginatorModule,\r\n  MatDatepickerModule,\r\n  MatNativeDateModule,\r\n  MatExpansionModule,\r\n  MatSlideToggleModule,\r\n  MatProgressSpinnerModule,\r\n  MatAutocompleteModule,\r\n  MatProgressBarModule,\r\n  MatSnackBarModule,\r\n];\r\n\r\n@NgModule({\r\n  declarations: [],\r\n  imports: [...modules],\r\n  exports: [...modules],\r\n})\r\nexport class MaterialModule {}\r\n",
+            "children": [
+                {
+                    "type": "providers",
+                    "elements": []
+                },
+                {
+                    "type": "declarations",
+                    "elements": []
+                },
+                {
+                    "type": "imports",
+                    "elements": []
+                },
+                {
+                    "type": "exports",
+                    "elements": []
+                },
+                {
+                    "type": "bootstrap",
+                    "elements": []
+                },
+                {
+                    "type": "classes",
+                    "elements": []
+                }
+            ]
+        }
+    ],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "context",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+            },
+            {
+                "name": "context",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/adif-lib/src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.prod.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: true\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\n  production: false\n}"
+            },
+            {
+                "name": "modules",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/material.module.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "[]",
+                "defaultValue": "[\r\n  MatButtonModule,\r\n  MatToolbarModule,\r\n  MatIconModule,\r\n  MatBadgeModule,\r\n  MatCardModule,\r\n  MatInputModule,\r\n  MatSelectModule,\r\n  MatRadioModule,\r\n  // ReactiveFormsModule,\r\n  MatSidenavModule,\r\n  MatTableModule,\r\n  MatPaginatorModule,\r\n  MatSortModule,\r\n  MatGridListModule,\r\n  MatMenuModule,\r\n  MatFormFieldModule,\r\n  MatStepperModule,\r\n  MatTabsModule,\r\n  MatDialogModule,\r\n  MatTooltipModule,\r\n  MatPaginatorModule,\r\n  MatDatepickerModule,\r\n  MatNativeDateModule,\r\n  MatExpansionModule,\r\n  MatSlideToggleModule,\r\n  MatProgressSpinnerModule,\r\n  MatAutocompleteModule,\r\n  MatProgressBarModule,\r\n  MatSnackBarModule,\r\n]"
+            },
+            {
+                "name": "require",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "literal type"
+            },
+            {
+                "name": "require",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/adif-lib/src/test.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "literal type"
+            }
+        ],
+        "functions": [],
+        "typealiases": [],
+        "enumerations": [],
+        "groupedVariables": {
+            "src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "literal type"
+                }
+            ],
+            "projects/adif-lib/src/test.ts": [
+                {
+                    "name": "context",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/adif-lib/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
+                },
+                {
+                    "name": "require",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/adif-lib/src/test.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "literal type"
+                }
+            ],
+            "src/environments/environment.prod.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.prod.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: true\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\n  production: false\n}"
+                }
+            ],
+            "src/app/components/material.module.ts": [
+                {
+                    "name": "modules",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/material.module.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "[]",
+                    "defaultValue": "[\r\n  MatButtonModule,\r\n  MatToolbarModule,\r\n  MatIconModule,\r\n  MatBadgeModule,\r\n  MatCardModule,\r\n  MatInputModule,\r\n  MatSelectModule,\r\n  MatRadioModule,\r\n  // ReactiveFormsModule,\r\n  MatSidenavModule,\r\n  MatTableModule,\r\n  MatPaginatorModule,\r\n  MatSortModule,\r\n  MatGridListModule,\r\n  MatMenuModule,\r\n  MatFormFieldModule,\r\n  MatStepperModule,\r\n  MatTabsModule,\r\n  MatDialogModule,\r\n  MatTooltipModule,\r\n  MatPaginatorModule,\r\n  MatDatepickerModule,\r\n  MatNativeDateModule,\r\n  MatExpansionModule,\r\n  MatSlideToggleModule,\r\n  MatProgressSpinnerModule,\r\n  MatAutocompleteModule,\r\n  MatProgressBarModule,\r\n  MatSnackBarModule,\r\n]"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {}
+    },
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "className": "AppModule",
+        "children": [
+            {
+                "name": "routes",
+                "filename": "src/app/app-routing.module.ts",
+                "module": "AppRoutingModule",
+                "children": [],
+                "kind": "module"
+            }
+        ]
+    },
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "projects/adif-lib/src/lib/adif-lib.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AdifLibComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/adif-lib/src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "context",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/adif-lib/src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "require",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/app.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "AppComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/material.module.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "modules",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/prueba/prueba.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "PruebaComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/environments/environment.prod.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/environments/environment.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "environment",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "context",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/test.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "require",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}

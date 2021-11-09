@@ -1,0 +1,32 @@
+/* variables definition */
+// viewports
+$sm-viewport : 48em;
+$md-viewport : 64em;
+$lg-viewport : 75em;
+// colors 
+$primary-color: #006338;
+$secondary-color: #003142;
+$menu-close-color: #006338;
+$menu-open-color: #308456;
+$toolbar-color: #EBF3EF;
+$white: #ffffff;
+$black: #333;
+$app-title-color: $white;
+$title-color: $white;
+$subtitle-color: #007351;
+$lighter-color: #d7d7d7;
+$zebra-color-1: #EFF4F1;
+$zebra-color-2: #FCF7EE;
+$button-gray: #ececec;
+$filter-border: #C6DBD1;
+$filter-background: rgba($primary-color, 0.04);
+$printer-field: #EBF3EF;
+
+$grid-zebra-1: #DEEDE6;
+$grid-total-0: $primary-color; 
+$grid-total-1: #D6DA78; 
+
+$alert: #ff0000;
+$warning: #E29F26;
+$success: $primary-color;
+
